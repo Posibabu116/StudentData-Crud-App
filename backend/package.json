@@ -1,11 +1,14 @@
 {
-  "name": "crud",
+  "name": "crud_application",
+  "homepage": "https://github.com/Posibabu116/StudentData-Crud-App.git",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "nodemon server.js",
     "dev": "nodemon server.js"
   },
@@ -18,4 +21,5 @@
     "mongoose": "^8.0.4",
     "nodemon": "^3.1.4"
   }
+
 }
