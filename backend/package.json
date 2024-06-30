@@ -1,6 +1,6 @@
 {
   "name": "crud_application",
-  "homepage": "https://github.com/Posibabu116/StudentData-Crud-App.git",
+  "homepage": "https://github.com/Posibabu116/StudentData-Crud-App",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
